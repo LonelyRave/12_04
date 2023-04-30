@@ -1,0 +1,853 @@
+Subject: [PATCH] add lessons 1-5
+---
+Index: lesson_1/first.py
+===================================================================
+diff --git a/lesson_1/first.py b/lesson_1/first.py
+deleted file mode 100644
+--- a/lesson_1/first.py	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
++++ /dev/null	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
+@@ -1,10 +0,0 @@
+-import time
+-
+-
+-time.sleep(5)
+-
+-
+-print('Glory Ukraine')
+-
+-
+-time.sleep(5)
+Index: lesson_1/main.py
+===================================================================
+diff --git a/lesson_1/main.py b/lesson_1/main.py
+deleted file mode 100644
+--- a/lesson_1/main.py	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
++++ /dev/null	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
+@@ -1,1 +0,0 @@
+-print('Glory Ukraine')py
+\ No newline at end of file
+Index: lesson_2/lesson2.py
+===================================================================
+diff --git a/lesson_2/lesson2.py b/lesson_2/lesson2.py
+deleted file mode 100644
+--- a/lesson_2/lesson2.py	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
++++ /dev/null	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
+@@ -1,89 +0,0 @@
+-#print('lesson_2')
+-# --------------
+-#print(1 == 1)
+-
+-
+-
+-#print(1 == 2)
+-
+-
+-#print(738137287429)
+-
+-# -------------------
+-
+-#celsius = float(input("Enter temperature in degrees Celsius:"))
+-
+-#farenheit = ( celsius + 32 ) * 5/9
+-#kelvin = celsius + 273.16
+-
+-#print("Temperature in degrees Fahrenheit:", farenheit, "F")
+-#print("Temperature in degrees Kelvin:", kelvin, "K")
+-#
+-#-----------------------------------------------------------
+-
+-
+-
+-
+-#v1 = 5
+-#t1 = 25
+-#v2 = 6
+-#t2 = 40
+-#v = v1 + v2
+-#t = (v1*t1 + v2*t2) / v
+-
+-
+-
+-
+-#print("The volume of mixture:", v, "л")
+-#print("The temperature of mixture:" ,t, "C")
+-
+-#UAH = float(input("enter amount UAH:"))
+-#USD = UAH * 0.027
+-
+-#print("USD", USD)
+-
+-#USD = float(input("enter amount USD:"))
+-#UAH = USD * 36.94
+-
+-#print("UAH", UAH)
+-
+-#UAH = float(input("enter amount UAH:"))
+-#EUR = UAH * 0.025
+-
+-
+-
+-
+-#print("EUR", EUR)
+-
+-#EUR = float(input("enter amount EUR:"))
+-#UAH = EUR * 40.46
+-
+-#print("UAH", UAH)
+-
+-# -----------------------------
+-
+-
+-
+-first_data = float(input('Enter first data'))
+-second_data = float(input('Enter second data'))
+-
+-operation = input('Enter operation')
+-
+-match operation:
+-    case '+':
+-        result = first_data + second_data
+-        print('Result', result)
+-    case '-':
+-        result = first_data - second_data
+-        print('Result', result)
+-    case '*':
+-        result = first_data * second_data
+-        print('Result', result)
+-    case '/':
+-        result = first_data / second_data
+-        print('Result', result)
+-    case _:
+-        print('Operation not vaid!')
+-
+-
+-
+Index: lesson_2/main.py
+===================================================================
+diff --git a/lesson_2/main.py b/lesson_2/main.py
+deleted file mode 100644
+--- a/lesson_2/main.py	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
++++ /dev/null	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
+@@ -1,1 +0,0 @@
+-print('Glory Ukraine')py
+\ No newline at end of file
+Index: lesson_3/lesson_3.py
+===================================================================
+diff --git a/lesson_3/lesson_3.py b/lesson_3/lesson_3.py
+deleted file mode 100644
+--- a/lesson_3/lesson_3.py	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
++++ /dev/null	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
+@@ -1,68 +0,0 @@
+-#  1) Користувач вводить слово, якщо це слово є поліндромом, вивести '+', інакше '-'
+-
+-#
+-# word = input("Enter a word: ")
+-# if word == word[::-1]:
+-#     print("+")
+-# else:
+-#     print("-")
+-
+-#-------------------------------------------------------------------------------------------------------------
+-
+-#  2) Користувач вводить текст і слово, яке потрібно знайти, якщо це слово є в тексті, вивести 'YES', інакше 'NO'
+-
+-# text = input("Введіть текст: ")
+-# word = input("Введіть слово для пошуку: ")
+-#
+-# words_in_text = text.split()
+-#
+-# if word in words_in_text:
+-#     print("YES")
+-# else:
+-#     print("NO")
+-
+-
+-#-------------------------------------------------------------------------------------------------------------
+-
+-# 3) Користувач водить рядок. Якщо він починається на 'abc', замінити їх на 'www', інакше додати в кінець рядка 'zzz'.
+-#
+-# s = input("Введіть рядок: ")
+-#
+-# if s.startswith('abc'):
+-#     s = 'www' + s[3:]
+-# else:
+-#     s = s + 'zzz'
+-#
+-# print(s)
+-
+-
+-
+-
+-#-----------------------------------------------------------------------------------------------------------------
+-
+-#  4) Написати валідатор для пошти. Користувач вводить пошту, а програма повинна перевірити, що в пошті є
+-#     символ '@' і '.', і якщо це так, вивести "YES", інакше "NO"
+-
+-
+-# email = input("Enter mail: ")
+-#
+-# if '@' in email and '.' in email:
+-#     print("YES")
+-# else:
+-#     print("NO")
+-
+-
+-#--------------------------------------------------------------------------------------------------------------
+-
+-#  5) Користувач водить текст через пробіл. Конвертувати текст у список. Вивести остані 3 елементи зі списку, якщо
+-#     список містить менше 3-х елементів, вивести повідомлення про те що кількість елементів менша за 3 і вказати
+-#     кількість елементів поточного списку
+-
+-
+-text = input("Enter text with a space: ")
+-lst = text.split()
+-
+-if len(lst) < 3:
+-    print(f"Number of elements less than 3: {len(lst)}")
+-else:
+-    print(lst[-3:])
+\ No newline at end of file
+Index: lesson_3/main.py
+===================================================================
+diff --git a/lesson_3/main.py b/lesson_3/main.py
+deleted file mode 100644
+--- a/lesson_3/main.py	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
++++ /dev/null	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
+@@ -1,116 +0,0 @@
+-# # print('lesson_2')
+-# # --------------
+-# # print(1 == 1)
+-#
+-# # print(1 == 2)
+-#
+-#
+-# # print(738137287429)
+-#
+-# # -------------------
+-#
+-# # celsius = float(input("Enter temperature in degrees Celsius:"))
+-#
+-# # farenheit = ( celsius + 32 ) * 5/9
+-# # kelvin = celsius + 273.16
+-#
+-# # print("Temperature in degrees Fahrenheit:", farenheit, "F")
+-# # print("Temperature in degrees Kelvin:", kelvin, "K")
+-# #
+-# # -----------------------------------------------------------
+-#
+-# # №2 ПЕРЕЗДАЧА
+-#  v1 = float(input('Set v1:'))
+-#  t1 = float(input('Set t1:'))
+-#  v2 = float(input('Set v2:'))
+-#  t2 = float(input('Set t2:'))
+-#  v = v1 + v2
+-#  t = (v1*t1 + v2*t2) / (v1 + v2)
+-#
+-#  print("The volume of mixture:", v, "L")
+-#  print("The temperature of mixture:", t, "C")
+-#
+-# # UAH = float(input("enter amount UAH:"))
+-# # USD = UAH * 0.027
+-#
+-# # print("USD", USD)
+-#
+-# # USD = float(input("enter amount USD:"))
+-# # UAH = USD * 36.94
+-#
+-# # print("UAH", UAH)
+-#
+-# # UAH = float(input("enter amount UAH:"))
+-# # EUR = UAH * 0.025
+-#
+-#
+-# # print("EUR", EUR)
+-#
+-# # EUR = float(input("enter amount EUR:"))
+-# # UAH = EUR * 40.46
+-#
+-# # print("UAH", UAH)
+-#
+-# # -----------------------------
+-# # №3 ПЕРЕЗДАЧА
+-# exchange_operation = float(input("Choose exchange operation by number:\n1.UAH --> USD \n2.USD --> UAH\n3.UAH --> EUR \n4.EUR --> UAH\n"))
+-# amount = float (input ( 'Enter amount :'))
+-# USD = 36.94
+-# EUR = 40
+-#
+-# if exchange_operation == 1:
+-#     print (amount/36.94)
+-# if exchange_operation == 2:
+-#     print(amount * 36.94)
+-# if exchange_operation == 3:
+-#     print(amount / 40)
+-# if exchange_operation == 4:
+-#     print(amount * 40)
+-# else:
+-#     print(USD)
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-# # first_data = float(input('Enter first data'))
+-# # second_data = float(input('Enter second data'))
+-# #
+-# # operation = input('Enter operation')
+-# #
+-# # match operation:
+-# #     case '+':
+-# #         result = first_data + second_data
+-# #         print('Result', result)
+-# #     case '-':
+-# #         result = first_data - second_data
+-# #         print('Result', result)
+-# #     case '*':
+-# #         result = first_data * second_data
+-# #         print('Result', result)
+-# #     case '/':
+-# #         result = first_data / second_data
+-# #         print('Result', result)
+-# #     case _:
+-# #         print('Operation not vaid!')
+-#
+-#
+-# #---------------------------------------------------- HOME WORK #3
+-#
+-# # 1) Користувач вводить слово, якщо це слово є поліндромом, вивести '+', інакше '-'
+-
+-
+-word = input("Enter a word: ")
+-if word == word[::-1]:
+-    print("+")
+-else:
+-    print("-")
+-
+Index: lesson_4/lesson_4.py
+===================================================================
+diff --git a/lesson_4/lesson_4.py b/lesson_4/lesson_4.py
+deleted file mode 100644
+--- a/lesson_4/lesson_4.py	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
++++ /dev/null	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
+@@ -1,137 +0,0 @@
+-#  1) Існує список з іменами ["john", "marta", "james", "amanda", "marianna"],
+-#     перетворити рядок, щоб кожне ім'я явно починалися з великої літери.
+-
+-names = ["john", "marta", "james", "amanda", "marianna"]
+-capitalized_names = [name.capitalize() for name in names]
+-print(capitalized_names)
+-
+-#***************************************************************************************************
+-
+-# 2) Є список друзів ["John", "Marta", "James", "Amanda", "Marianna"].
+-#    Виведіть імена в консолі, кожен з нового рядка,
+-#    вирівнюючи праву сторону, використовуючи метод рядка та форматування через F String. Також над іменами першим рядком
+-#    виведіть NAME, де NAME має бути посередині(string.center()), а решта простору заповнена символом "*"
+-
+-
+-# friends = ["John", "Marta", "James", "Amanda", "Marianna"]
+-#
+-# name = "NAME".center(10, "*")
+-# print(name)
+-# for friend in friends:
+-#     print(f"{friend.rjust(10)}")
+-
+-
+-#**********************************************************************************************************************
+-
+-#  3) У вас є список змінних у форматі CamelCase ["FirstItem", "FriendsList", "MyTuple"] ,
+-#     перетворити його у список змінних для Пайтона snace_case, "friends_list", "my_tuple"]
+-
+-#
+-# camelcase_list = ["FirstItem", "FriendsList", "MyTuple"]
+-# snakecase_list = []
+-#
+-# for word in camelcase_list:
+-#     snakecase_word = ""
+-#     for i, char in enumerate(word):
+-#         if char.isupper() and i != 0:
+-#             snakecase_word += "_" + char.lower()
+-#         else:
+-#             snakecase_word += char.lower()
+-#     snakecase_list.append(snakecase_word)
+-#
+-# print(snakecase_list)
+-
+-#**********************************************************************************************************************
+-
+-# 4) Створіть словник з чотирма назвами мов програмування (ключі) та іменами розробників цих мов (значення).
+-#    Виведіть по черзі для усіх елементів словника повідомлення типу:
+-#    My favorite programming language is Python. It was created by Guido van Rossum..
+-#    Видаліть, на ваш вибір, одну пару «мова: розробник» із словника.
+-#    Виведіть словник на екран.
+-
+-# Создаю словарь
+-#
+-# programming_languages = {
+-#     "Python": "Guido van Rossum",
+-#     "Java": "James Gosling",
+-#     "JavaScript": "Brendan Eich",
+-#     "Ruby": "Yukihiro Matsumoto"
+-# }
+-#
+-# # Вывожу сообщение про каждый элемент словаря
+-#
+-# for language, developer in programming_languages.items():
+-#     print(f"My favorite programming language is {language}. It was created by {developer}.")
+-#
+-# # Удаляю пару (язык: разработчик) из словаря
+-#
+-# del programming_languages["JavaScript"]
+-#
+-# print(programming_languages)
+-
+-#**********************************************************************************************************************
+-
+-# # 5) Створіть англо-німецький словник, який називається e2g, і виведіть його на екран.
+-# #    Слова для словника: stork / storch, hawk / falke, woodpecker / specht і owl / eule.
+-# #    Виведіть німецький варіант слова owl.
+-# #    Додайте у словник, на ваш вибір, ще два слова та їхній переклад.
+-# #    Виведіть окремо: словник; ключі і значення словника у вигляді списків.
+-#
+-#
+-# Создаю словарь
+-
+-# e2g = {
+-#     "stork": "storch",
+-#     "hawk": "falke",
+-#     "woodpecker": "specht",
+-#     "owl": "eule"
+-# }
+-#
+-# Вывожу немецкий вариант слова owl
+-
+-# print(e2g["owl"])
+-#
+-# Добавляю новые слова с переводом
+-
+-# e2g["sparrow"] = "sperling"
+-# e2g["swallow"] = "schwalbe"
+-#
+-# print(e2g)
+-#
+-# Вывожу ключ и значение словаря списком
+-
+-# keys_list = list(e2g.keys())
+-# values_list = list(e2g.values())
+-# print(keys_list)
+-# print(values_list)
+-
+-#**********************************************************************************************************************
+-
+-# 6) Створіть багаторівневий словник subjects навчальних предметів.
+-#    Використайте наступні рядки для ключів верхнього рівня: 'science', 'humanities' і 'public'. Зробіть так, щоб
+-#    ключ 'science' був ім’ям іншого словника, який має ключі 'physics', 'computer science' і 'biology'.
+-#    Зробіть так, щоб ключ 'physics' посилався на список рядків зі значеннями 'nuclear physics', 'optics' і 'thermodynamics'.
+-#    Решта ключів повинні посилатися на порожні словники.
+-#    Виведіть на екран ключі subjects['science'] і значення subjects['science']['physics'].
+-
+-# subjects = {
+-#     'science': {
+-#         'physics': ['nuclear physics', 'optics', 'thermodynamics'],
+-#         'computer science': {},
+-#         'biology': {}
+-#     },
+-#     'humanities': {},
+-#     'public': {}
+-# }
+-#
+-# print(subjects['science'].keys())
+-# print(subjects['science']['physics'])
+-#
+-
+-# # 7) Напишіть програму, яка виводить словник, в якому ключі є числами від 1 до 15 (обидва включені),
+-# #    а значення є квадратами ключів. Генерація ключів та значень має бути виконана через цикл.
+-
+-squares = {}
+-for i in range(1, 16):
+-    squares[i] = i ** 2
+-print(squares)
+\ No newline at end of file
+Index: lesson_4/main.py
+===================================================================
+diff --git a/lesson_4/main.py b/lesson_4/main.py
+deleted file mode 100644
+--- a/lesson_4/main.py	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
++++ /dev/null	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
+@@ -1,116 +0,0 @@
+-# # print('lesson_2')
+-# # --------------
+-# # print(1 == 1)
+-#
+-# # print(1 == 2)
+-#
+-#
+-# # print(738137287429)
+-#
+-# # -------------------
+-#
+-# # celsius = float(input("Enter temperature in degrees Celsius:"))
+-#
+-# # farenheit = ( celsius + 32 ) * 5/9
+-# # kelvin = celsius + 273.16
+-#
+-# # print("Temperature in degrees Fahrenheit:", farenheit, "F")
+-# # print("Temperature in degrees Kelvin:", kelvin, "K")
+-# #
+-# # -----------------------------------------------------------
+-#
+-# # №2 ПЕРЕЗДАЧА
+-#  v1 = float(input('Set v1:'))
+-#  t1 = float(input('Set t1:'))
+-#  v2 = float(input('Set v2:'))
+-#  t2 = float(input('Set t2:'))
+-#  v = v1 + v2
+-#  t = (v1*t1 + v2*t2) / (v1 + v2)
+-#
+-#  print("The volume of mixture:", v, "L")
+-#  print("The temperature of mixture:", t, "C")
+-#
+-# # UAH = float(input("enter amount UAH:"))
+-# # USD = UAH * 0.027
+-#
+-# # print("USD", USD)
+-#
+-# # USD = float(input("enter amount USD:"))
+-# # UAH = USD * 36.94
+-#
+-# # print("UAH", UAH)
+-#
+-# # UAH = float(input("enter amount UAH:"))
+-# # EUR = UAH * 0.025
+-#
+-#
+-# # print("EUR", EUR)
+-#
+-# # EUR = float(input("enter amount EUR:"))
+-# # UAH = EUR * 40.46
+-#
+-# # print("UAH", UAH)
+-#
+-# # -----------------------------
+-# # №3 ПЕРЕЗДАЧА
+-# exchange_operation = float(input("Choose exchange operation by number:\n1.UAH --> USD \n2.USD --> UAH\n3.UAH --> EUR \n4.EUR --> UAH\n"))
+-# amount = float (input ( 'Enter amount :'))
+-# USD = 36.94
+-# EUR = 40
+-#
+-# if exchange_operation == 1:
+-#     print (amount/36.94)
+-# if exchange_operation == 2:
+-#     print(amount * 36.94)
+-# if exchange_operation == 3:
+-#     print(amount / 40)
+-# if exchange_operation == 4:
+-#     print(amount * 40)
+-# else:
+-#     print(USD)
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-# # first_data = float(input('Enter first data'))
+-# # second_data = float(input('Enter second data'))
+-# #
+-# # operation = input('Enter operation')
+-# #
+-# # match operation:
+-# #     case '+':
+-# #         result = first_data + second_data
+-# #         print('Result', result)
+-# #     case '-':
+-# #         result = first_data - second_data
+-# #         print('Result', result)
+-# #     case '*':
+-# #         result = first_data * second_data
+-# #         print('Result', result)
+-# #     case '/':
+-# #         result = first_data / second_data
+-# #         print('Result', result)
+-# #     case _:
+-# #         print('Operation not vaid!')
+-#
+-#
+-# #---------------------------------------------------- HOME WORK #3
+-#
+-# # 1) Користувач вводить слово, якщо це слово є поліндромом, вивести '+', інакше '-'
+-
+-
+-word = input("Enter a word: ")
+-if word == word[::-1]:
+-    print("+")
+-else:
+-    print("-")
+-
+Index: lesson_5/lesson_5.py
+===================================================================
+diff --git a/lesson_5/lesson_5.py b/lesson_5/lesson_5.py
+deleted file mode 100644
+--- a/lesson_5/lesson_5.py	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
++++ /dev/null	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
+@@ -1,1 +0,0 @@
+-print(lesson_5)
+\ No newline at end of file
+Index: lesson_5/main.py
+===================================================================
+diff --git a/lesson_5/main.py b/lesson_5/main.py
+deleted file mode 100644
+--- a/lesson_5/main.py	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
++++ /dev/null	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
+@@ -1,116 +0,0 @@
+-# # print('lesson_2')
+-# # --------------
+-# # print(1 == 1)
+-#
+-# # print(1 == 2)
+-#
+-#
+-# # print(738137287429)
+-#
+-# # -------------------
+-#
+-# # celsius = float(input("Enter temperature in degrees Celsius:"))
+-#
+-# # farenheit = ( celsius + 32 ) * 5/9
+-# # kelvin = celsius + 273.16
+-#
+-# # print("Temperature in degrees Fahrenheit:", farenheit, "F")
+-# # print("Temperature in degrees Kelvin:", kelvin, "K")
+-# #
+-# # -----------------------------------------------------------
+-#
+-# # №2 ПЕРЕЗДАЧА
+-#  v1 = float(input('Set v1:'))
+-#  t1 = float(input('Set t1:'))
+-#  v2 = float(input('Set v2:'))
+-#  t2 = float(input('Set t2:'))
+-#  v = v1 + v2
+-#  t = (v1*t1 + v2*t2) / (v1 + v2)
+-#
+-#  print("The volume of mixture:", v, "L")
+-#  print("The temperature of mixture:", t, "C")
+-#
+-# # UAH = float(input("enter amount UAH:"))
+-# # USD = UAH * 0.027
+-#
+-# # print("USD", USD)
+-#
+-# # USD = float(input("enter amount USD:"))
+-# # UAH = USD * 36.94
+-#
+-# # print("UAH", UAH)
+-#
+-# # UAH = float(input("enter amount UAH:"))
+-# # EUR = UAH * 0.025
+-#
+-#
+-# # print("EUR", EUR)
+-#
+-# # EUR = float(input("enter amount EUR:"))
+-# # UAH = EUR * 40.46
+-#
+-# # print("UAH", UAH)
+-#
+-# # -----------------------------
+-# # №3 ПЕРЕЗДАЧА
+-# exchange_operation = float(input("Choose exchange operation by number:\n1.UAH --> USD \n2.USD --> UAH\n3.UAH --> EUR \n4.EUR --> UAH\n"))
+-# amount = float (input ( 'Enter amount :'))
+-# USD = 36.94
+-# EUR = 40
+-#
+-# if exchange_operation == 1:
+-#     print (amount/36.94)
+-# if exchange_operation == 2:
+-#     print(amount * 36.94)
+-# if exchange_operation == 3:
+-#     print(amount / 40)
+-# if exchange_operation == 4:
+-#     print(amount * 40)
+-# else:
+-#     print(USD)
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-#
+-# # first_data = float(input('Enter first data'))
+-# # second_data = float(input('Enter second data'))
+-# #
+-# # operation = input('Enter operation')
+-# #
+-# # match operation:
+-# #     case '+':
+-# #         result = first_data + second_data
+-# #         print('Result', result)
+-# #     case '-':
+-# #         result = first_data - second_data
+-# #         print('Result', result)
+-# #     case '*':
+-# #         result = first_data * second_data
+-# #         print('Result', result)
+-# #     case '/':
+-# #         result = first_data / second_data
+-# #         print('Result', result)
+-# #     case _:
+-# #         print('Operation not vaid!')
+-#
+-#
+-# #---------------------------------------------------- HOME WORK #3
+-#
+-# # 1) Користувач вводить слово, якщо це слово є поліндромом, вивести '+', інакше '-'
+-
+-
+-word = input("Enter a word: ")
+-if word == word[::-1]:
+-    print("+")
+-else:
+-    print("-")
+-
+Index: .gitignore
+===================================================================
+diff --git a/.gitignore b/.gitignore
+deleted file mode 100644
+--- a/.gitignore	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
++++ /dev/null	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
+@@ -1,1 +0,0 @@
+-.idea
+\ No newline at end of file
+Index: main.py
+===================================================================
+diff --git a/main.py b/main.py
+deleted file mode 100644
+--- a/main.py	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
++++ /dev/null	(revision 2afa608067cbe93c21cc99f85d0cefb4b8a74fa9)
+@@ -1,103 +0,0 @@
+-# print('lesson_2')
+-# --------------
+-# print(1 == 1)
+-
+-# print(1 == 2)
+-
+-
+-# print(738137287429)
+-
+-# -------------------
+-
+-# celsius = float(input("Enter temperature in degrees Celsius:"))
+-
+-# farenheit = ( celsius + 32 ) * 5/9
+-# kelvin = celsius + 273.16
+-
+-# print("Temperature in degrees Fahrenheit:", farenheit, "F")
+-# print("Temperature in degrees Kelvin:", kelvin, "K")
+-#
+-# -----------------------------------------------------------
+-
+-# №2 ПЕРЕЗДАЧА
+- v1 = float(input('Set v1:'))
+- t1 = float(input('Set t1:'))
+- v2 = float(input('Set v2:'))
+- t2 = float(input('Set t2:'))
+- v = v1 + v2
+- t = (v1*t1 + v2*t2) / (v1 + v2)
+-
+- print("The volume of mixture:", v, "L")
+- print("The temperature of mixture:", t, "C")
+-
+-# UAH = float(input("enter amount UAH:"))
+-# USD = UAH * 0.027
+-
+-# print("USD", USD)
+-
+-# USD = float(input("enter amount USD:"))
+-# UAH = USD * 36.94
+-
+-# print("UAH", UAH)
+-
+-# UAH = float(input("enter amount UAH:"))
+-# EUR = UAH * 0.025
+-
+-
+-# print("EUR", EUR)
+-
+-# EUR = float(input("enter amount EUR:"))
+-# UAH = EUR * 40.46
+-
+-# print("UAH", UAH)
+-
+-# -----------------------------
+-# №3 ПЕРЕЗДАЧА
+-exchange_operation = float(input("Choose exchange operation by number:\n1.UAH --> USD \n2.USD --> UAH\n3.UAH --> EUR \n4.EUR --> UAH\n"))
+-amount = float (input ( 'Enter amount :'))
+-USD = 36.94
+-EUR = 40
+-
+-if exchange_operation == 1:
+-    print (amount/36.94)
+-if exchange_operation == 2:
+-    print(amount * 36.94)
+-if exchange_operation == 3:
+-    print(amount / 40)
+-if exchange_operation == 4:
+-    print(amount * 40)
+-else:
+-    print(USD)
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-# first_data = float(input('Enter first data'))
+-# second_data = float(input('Enter second data'))
+-#
+-# operation = input('Enter operation')
+-#
+-# match operation:
+-#     case '+':
+-#         result = first_data + second_data
+-#         print('Result', result)
+-#     case '-':
+-#         result = first_data - second_data
+-#         print('Result', result)
+-#     case '*':
+-#         result = first_data * second_data
+-#         print('Result', result)
+-#     case '/':
+-#         result = first_data / second_data
+-#         print('Result', result)
+-#     case _:
+-#         print('Operation not vaid!')
+diff --git a/__init__.py b/__init__.py
+deleted file mode 100644
