@@ -1,1 +1,1 @@
-print('Glory Ukraine')py
+print('lesson_2')
