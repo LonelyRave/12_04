@@ -3,7 +3,7 @@ from task_3 import PhoneBook, Contact, Interface
 
 
 def main():
-    # Код для первой задачи
+    
     point1 = Point(0, 0)
     point2 = Point(0, 4)
     point3 = Point(3, 0)
@@ -26,7 +26,7 @@ def main():
     else:
         print("Invalid square coordinates. Cannot calculate area.")
 
-    # Код для второй задачи
+    
     phone_book = PhoneBook()
     interface = Interface(phone_book)
     interface.start()
