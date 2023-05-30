@@ -39,5 +39,3 @@ def get_planet_info(planet_url):
     planet_info["name"] = planet["name"]
     planet_info["url"] = planet["url"]
     return planet_info
-
-# Теперь можно продолжить использовать функцию get_ship_info() и остальной код в вашем main.py
