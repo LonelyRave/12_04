@@ -1,0 +1,123 @@
+1688632369322	geckodriver	INFO	Listening on 127.0.0.1:55178
+1688632369699	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/c7/7qxc3psx06z73dkbzcr97br40000gp/T/rust_mozprofileQIWvwV"
+2023-07-06 09:32:50.310 plugin-container[51746:2196774] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 09:32:50.310 plugin-container[51746:2196774] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1688632370336	Marionette	INFO	Marionette enabled
+1688632370388	Marionette	INFO	Listening on port 55184
+WebDriver BiDi listening on ws://localhost:55179
+Read port: 55184
+2023-07-06 09:32:50.440 plugin-container[51746:2196774] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 09:32:50.440 plugin-container[51746:2196774] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 09:32:50.440 plugin-container[51746:2196802] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 09:32:50.440 plugin-container[51746:2196802] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1688632370881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/c7/7qxc3psx06z73dkbzcr97br40000gp/T/rust_mozprofileQIWvwV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55179/devtools/browser/dbfbbd36-9f1a-4572-a5eb-7618b20204f6
+1688632373333	geckodriver	INFO	Listening on 127.0.0.1:55194
+1688632373720	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/c7/7qxc3psx06z73dkbzcr97br40000gp/T/rust_mozprofileiwQk03"
+2023-07-06 09:32:54.420 plugin-container[51761:2197118] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 09:32:54.421 plugin-container[51761:2197118] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 09:32:54.427 plugin-container[51761:2197118] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 09:32:54.427 plugin-container[51761:2197118] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 09:32:54.427 plugin-container[51761:2197120] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 09:32:54.427 plugin-container[51761:2197120] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1688632374456	Marionette	INFO	Marionette enabled
+1688632374496	Marionette	INFO	Listening on port 55207
+WebDriver BiDi listening on ws://localhost:55195
+Read port: 55207
+1688632374922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/c7/7qxc3psx06z73dkbzcr97br40000gp/T/rust_mozprofileiwQk03/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55195/devtools/browser/55364f55-5c10-4e6e-8749-914a89428de4
+1688632381814	Marionette	INFO	Stopped listening on port 55207
+1688634382596	Marionette	INFO	Stopped listening on port 55184
+1688636402553	geckodriver	INFO	Listening on 127.0.0.1:57017
+1688636403071	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/c7/7qxc3psx06z73dkbzcr97br40000gp/T/rust_mozprofileImJ16J"
+2023-07-06 10:40:03.839 plugin-container[53271:2250110] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 10:40:03.839 plugin-container[53271:2250110] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 10:40:03.847 plugin-container[53271:2250110] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 10:40:03.847 plugin-container[53271:2250110] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 10:40:03.848 plugin-container[53271:2250134] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 10:40:03.848 plugin-container[53271:2250134] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1688636403862	Marionette	INFO	Marionette enabled
+1688636403926	Marionette	INFO	Listening on port 57023
+WebDriver BiDi listening on ws://localhost:57018
+Read port: 57023
+1688636404563	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/c7/7qxc3psx06z73dkbzcr97br40000gp/T/rust_mozprofileImJ16J/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57018/devtools/browser/1e41adfd-c086-4e3b-a6b4-d230ba8a6827
+1688636407253	geckodriver	INFO	Listening on 127.0.0.1:57035
+1688636407584	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/c7/7qxc3psx06z73dkbzcr97br40000gp/T/rust_mozprofileZfJe94"
+2023-07-06 10:40:08.212 plugin-container[53288:2250451] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 10:40:08.213 plugin-container[53288:2250451] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 10:40:08.223 plugin-container[53288:2250451] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 10:40:08.223 plugin-container[53288:2250451] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 10:40:08.223 plugin-container[53288:2250449] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 10:40:08.223 plugin-container[53288:2250449] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1688636408234	Marionette	INFO	Marionette enabled
+1688636408303	Marionette	INFO	Listening on port 57046
+Read port: 57046
+WebDriver BiDi listening on ws://localhost:57036
+1688636408922	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/c7/7qxc3psx06z73dkbzcr97br40000gp/T/rust_mozprofileZfJe94/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:57036/devtools/browser/ddc5e743-5920-42f7-9a1e-caee53ff4a44
+1688636416027	Marionette	INFO	Stopped listening on port 57046
+[2023-07-06T09:40:45Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2023-07-06T09:40:45Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2023-07-06T09:40:45Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2023-07-06T09:40:45Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+2023-07-06 09:40:45.909 plugin-container[53307:2251274] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 09:40:45.909 plugin-container[53307:2251274] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 09:40:45.920 plugin-container[53307:2251274] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 09:40:45.920 plugin-container[53307:2251274] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 09:40:45.921 plugin-container[53307:2251273] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 09:40:45.921 plugin-container[53307:2251273] nil host used in call to allowsAnyHTTPSCertificateForHost:
+[2023-07-06T09:40:52Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2023-07-06T09:40:52Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2023-07-06T09:40:52Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+[2023-07-06T09:40:52Z ERROR mp4parse] Found 2 nul bytes in "\u{0}\u{0}"
+1688638105701	Marionette	INFO	Stopped listening on port 57023
+1688646252963	geckodriver	INFO	Listening on 127.0.0.1:59512
+1688646253471	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/c7/7qxc3psx06z73dkbzcr97br40000gp/T/rust_mozprofile6vSkZN"
+2023-07-06 13:24:14.118 plugin-container[55812:2356554] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 13:24:14.118 plugin-container[55812:2356554] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 13:24:14.127 plugin-container[55812:2356554] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 13:24:14.127 plugin-container[55812:2356554] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 13:24:14.127 plugin-container[55812:2356563] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 13:24:14.127 plugin-container[55812:2356563] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1688646254144	Marionette	INFO	Marionette enabled
+1688646254187	Marionette	INFO	Listening on port 59518
+Read port: 59518
+WebDriver BiDi listening on ws://localhost:59513
+1688646254598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/c7/7qxc3psx06z73dkbzcr97br40000gp/T/rust_mozprofile6vSkZN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59513/devtools/browser/48be82bb-9a2d-4d12-8bff-ab539c278c59
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 86: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AOiihYbjk7GyPSPexE3PorOKRXoofTPF8NjvkAglc4c.js line 2 > eval line 1369 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.globalsqa.com"
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+2023-07-06 12:24:46.656 plugin-container[55829:2357282] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 12:24:46.657 plugin-container[55829:2357282] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 12:24:46.664 plugin-container[55829:2357282] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 12:24:46.664 plugin-container[55829:2357282] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 12:24:46.665 plugin-container[55829:2357285] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 12:24:46.665 plugin-container[55829:2357285] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript error: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js, line 86: TagError: adsbygoogle.push() error: Only one 'enable_page_level_ads' allowed per page.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/AOiihYbjk7GyPSPexE3PorOKRXoofTPF8NjvkAglc4c.js line 2 > eval line 1012 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1688646351402	Marionette	INFO	Stopped listening on port 59518
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1688646352894	geckodriver	INFO	Listening on 127.0.0.1:59618
+1688646353410	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/c7/7qxc3psx06z73dkbzcr97br40000gp/T/rust_mozprofile18UF5L"
+2023-07-06 13:25:54.065 plugin-container[55867:2358356] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 13:25:54.065 plugin-container[55867:2358356] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 13:25:54.072 plugin-container[55867:2358356] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 13:25:54.072 plugin-container[55867:2358356] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2023-07-06 13:25:54.072 plugin-container[55867:2358358] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2023-07-06 13:25:54.072 plugin-container[55867:2358358] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1688646354091	Marionette	INFO	Marionette enabled
+1688646354146	Marionette	INFO	Listening on port 59624
+WebDriver BiDi listening on ws://localhost:59619
+Read port: 59624
+1688646354770	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/c7/7qxc3psx06z73dkbzcr97br40000gp/T/rust_mozprofile18UF5L/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59619/devtools/browser/5c477a42-4d9c-4076-a44c-3da7192967cd
+1688646358262	Marionette	INFO	Stopped listening on port 59624
